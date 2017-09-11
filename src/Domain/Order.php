@@ -1,6 +1,6 @@
 <?php
 
-namespace backery\Domain;
+namespace StepStone\Domain;
 
 class Order 
 {
@@ -31,6 +31,8 @@ class Order
      * @var string
      */
     private $client_name;
+
+
 
     public function getIdOrder() {
         return $this->id_order;

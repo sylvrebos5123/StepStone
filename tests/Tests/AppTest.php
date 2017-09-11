@@ -54,9 +54,9 @@ class AppTest extends WebTestCase
         return array(
             
             array('/api/cakes'),
-            /*array('/api/cake/1'),
+            array('/api/cake/1'),
             array('/api/cake'),
-            array('/api/order/1')*/
+            array('/api/order/1')
             ); 
     }
 }

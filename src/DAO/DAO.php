@@ -31,9 +31,4 @@ abstract class DAO
         return $this->db;
     }
 
-    /**
-     * Builds a domain object from a DB row.
-     * Must be overridden by child classes.
-     */
-    //protected abstract function buildDomainObject(array $row);
 }
